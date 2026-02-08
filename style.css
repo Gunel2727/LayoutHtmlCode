@@ -1,0 +1,29 @@
+.box {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h1,
+p {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.line {
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 3px;
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    
+}
