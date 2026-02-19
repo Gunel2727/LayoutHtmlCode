@@ -1,0 +1,38 @@
+#Invite {
+    background-color: lightgray;
+}
+
+.container {
+    width: 440px;
+    height: 580px;
+    background-color: white;
+    border: 2px solid black;
+    margin: 30px auto;
+}
+
+.container .text .header {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-size:40px;
+}
+
+.container .text {
+    text-align:center;
+}
+
+.container .text .desc{
+    margin-top:40px;
+}
+.container .text .date{
+    width:190px;
+    margin:1px 127px;
+}
+
+.container .text .location{
+    font-size:12px;
+}
+
+.container .text .details{
+    margin:40px;
+    font-size:11.7px;
+}

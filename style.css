@@ -1,19 +1,27 @@
-.box {
+.body {
     width: 300px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin: 0;
 }
 
-h1,
-p {
-    margin: 0;
-    font-size: 24px;
-    line-height: 1;
+.first-section {
+    margin: 110px 170px;
+    font-size: 30px;
+    width:300px;
+    height:50px;
+}
+
+.first-section h2 {
+    margin-bottom: 0;
+}
+
+.first-section p {
+    margin-top: 0;
 }
 
 .line {
     position: relative;
     padding-bottom: 30px;
+   
 }
 
 .line::after {
@@ -21,9 +29,44 @@ p {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 20%;
+    width: 90px;
     height: 3px;
     background: #833AB4;
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+}
+
+#tedris .desc {
+    width: 500px;
+    margin-left: 160px;
+}
+
+.containers{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    margin-top:-200px;
+    margin-left:55%;
+    width:34%;
+   
+}
+
+#tedris .container {
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    width:48%;
     
+    
+}
+
+#tedris .container i{
+    font-size:50px;
+    margin:20px;
+}
+
+#tedris .container h1{
+    margin:70px 3px;
+    font-size:27px;
+    width:250px;
 }
