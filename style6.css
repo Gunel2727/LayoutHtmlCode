@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background-color: rgb(235, 222, 222);
+}
+
+.container {
+    margin: 40px auto;
+    padding: 40px;
+    width: 900px;
+}
+
+
+header h1 {
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-size: 45px;
+}
+
+.job {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.contact {
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+}
+
+.left {
+    width: 55%;
+    padding-right: 40px;
+    border-left: 2px dashed gray;
+
+}
+
+.right {
+    width: 45%;
+    padding-left: 40px;
+    border-left: 2px dashed gray;
+}
+
+h3 {
+    color: #1c6e8c;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.item span {
+    font-size: 13px;
+    color: gray;
+}
+
+.item p {
+    font-size: 14px;
+    line-height: 1.6;
+}
